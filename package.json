@@ -1,0 +1,16 @@
+{
+  "name": "nuremberg",
+  "version": "1.0.0",
+  "description": "The ultimate judge. Calculates user sentiments for the last 7 days and posts the results in Slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Des Preston",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "17.1.0",
+    "@slack/web-api": "5.7.0",
+    "mongodb": "3.5.2"
+  }
+}
