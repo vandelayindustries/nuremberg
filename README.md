@@ -3,7 +3,8 @@
 To be run as an AWS lambda. Nuremberg is part of the suite of services we run
 for our Slack workspace.
 
-## WTF is this?  Our slack workspace has another lambda that is invoked on Slack
+## WTF is this?
+Our slack workspace has another lambda that is invoked on Slack
 message events. That lambda, which unfortunately is not public, is responsible
 for saving our messages into a mongo DB. It also updates and deletes existing
 messages and records when we make edits to existing messages. Every 7 days, on
