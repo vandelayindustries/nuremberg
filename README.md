@@ -30,6 +30,10 @@ last 7 days worth of messages in the DB and:
    As of now, the shared pot consists of all the guac users spent during failed
    steals. When a user tries to steal guac from another user and fails, whatever
    they spent goes into the shared pot.
+9. Tallies up the amount of 'wreck' votes were cast for each user. If a user got
+   a higher number of votes than anyone else, they get half their guac taken
+   from them. The guac disappears forever. If there's a tie, no users lose
+   anything. Users in the chat can vote by using the 'wreck' command.
 
 * guac: Guac is a made up currency we use in the slack channel, similar to gold
   in WoW or whatever. It means nothing and it doesn't matter. We have slash
